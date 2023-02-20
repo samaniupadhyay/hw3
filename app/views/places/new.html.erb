@@ -1,0 +1,7 @@
+<%= form_with :model => @place do |form| %>
+  <p>
+    <%= form.label "City" %>
+    <%= form.text_field "city" %>
+  <%= form.hidden_field "city_id" %>
+  <%= form.submit %>
+<% end %>
